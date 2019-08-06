@@ -1,4 +1,4 @@
-[# Takeaway Coffee Cup Illustration](https://fazeelanizam13.github.io/pure-css-art-take-away-coffee-cup/)
+# [Takeaway Coffee Cup Illustration](https://fazeelanizam13.github.io/pure-css-art-take-away-coffee-cup/)
 
 Created by styling ```<div>``` elements with CSS.
 
