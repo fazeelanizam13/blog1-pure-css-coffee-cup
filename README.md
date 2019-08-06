@@ -1,6 +1,6 @@
 # Takeaway Coffee Cup Illustration
 
-Created by styling <div> elements with CSS.
+Created by styling ```<div>``` elements with CSS.
 
 ## Acknowledgments
 
