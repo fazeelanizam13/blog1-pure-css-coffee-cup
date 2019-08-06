@@ -1,0 +1,131 @@
+
+body{
+    background-color: #00CAE8;
+}
+
+.container{
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    background: none;
+}
+
+.cup{
+    position: relative;
+    top: 145px;
+    left: 155px;
+    border-top: 370px solid #AB733A; /*height*/
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent; /*slant*/
+    height: 0s;
+    width: 200px; /*width*/
+}
+
+.shadow{
+    position: relative;
+    top: -370px;
+    left: -45px;;
+    border-top: 8px solid #85592E; /*height*/
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent; /*slant*/
+    height: 0;
+    width: 288px; /*width*/
+}
+
+.sticker{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -280px;
+    left: -35px;
+    border-top: 180px solid #fff; /*height*/
+    border-left: 23px solid transparent;
+    border-right: 23px solid transparent; /*slant*/
+    height: 0;
+    width: 225px; /*width*/
+}
+
+.lid{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 145px;
+    height: 75px;
+}
+
+.lid-top{
+    border-bottom: 45px solid #5A4627; /*height*/
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent; /*slant*/
+    height: 0;
+    width: 280px; /*width*/
+}
+
+.lid-bottom{
+    border-bottom: 30px solid #5A4627; /*height*/
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent; /*slant*/
+    height: 0;
+    width: 315px; /*width*/
+}
+
+.base{
+    position: relative;
+    top: 135px;
+    left: 100px;
+    height: 5px;
+    width: 400px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 47px;
+    top: -165px;
+    width: 130px;
+    height: 150px;
+}
+
+p{
+    font-family: "Ink Free";
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.heart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -75px;
+    left: 150px;
+    transform: rotate(30deg)
+}
+
+.half{
+    background-color: #5C058B;
+    width: 20px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.left{
+    transform: rotate(-35deg) translateX(3px);
+}
+
+.right{
+    transform: rotate(35deg) translateX(-3px);
+}
