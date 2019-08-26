@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Ink Free';
+    src: url('inkfree.ttf') format('truetype');
+}
 
 body{
     background-color: #00CAE8;
